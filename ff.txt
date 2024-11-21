@@ -2,7 +2,7 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/zzacxc/LJAD
 ! Description: 自建自用规则
-! Version: Beta版 0.9.0.1
+! Version: Beta版 0.9.0.2
 ! Last modified: 2024-11-21
 
 
@@ -419,8 +419,6 @@
 ||ad.kmrxgs.cn^
 ||mdp-usertrace-cn.heytapmobi.com^
 ||cid-materials-cdn.smallfighter.com^
-||nu86q.com^
-||iu76d.cc^
 ||dg.k.jd.com^
 ||skclick.jd.com^
 ||mssdk3-normal-lq.zijieapi.com^
@@ -539,11 +537,7 @@ v信小程序广告奖励
 ||tnc3-aliec2.zijieapi.com^
 ||api-d.dutils.com^
 ||tnc3-bjlgy.zijieapi.com^
-||tdid.m.qq.com^
 ||applog.uc.cn^
-||luce.ngishc.top^
-||z119.hnzzff.club^
-||98550.net^
 ||tj.apphaiwangxing.com^
 ||pages.tmall.com^
 ||ark-handler-bottom.m.taobao.com^
@@ -557,32 +551,9 @@ v信小程序广告奖励
 ||bi-sensors.duxiaoman.com^
 ||stun.services.mozilla.com^
 ||u.jd.com^
-||2026874732.qnqcdn.net^
-||d.url.cn^
-||2026914328.qnqcdn.net^
-||cdn-mum.alibabachengdun.com^
-||kk1950044018.041gwb.cn^
-||llmlt.pammfrs.com^
-||nswz029.com^
-||ih.wsx117ih.com^
-||01.fexute.com^
-||qsguan1.oss-cn-guangzhou.aliyuncs.com^
-||qsguan2.oss-cn-guangzhou.aliyuncs.com^
 ||siphh16.hbq.r.10086.cn^
 ||kaoyao.nidaye.pw^
-||guanli168.oss-ap-southeast-1.aliyuncs.com^
-||gal01.net^
-||iqc301.xyz^
-||laibuji.xiahou.xyz^
-||168xtongji.frog531.com^
-||lyg.dfqdsy.cn^
-||386dh-api.nav-site.com^
-||ltlmgp386dh-6y13.daiwenkai1.com^
-||cuid^
 ||log-vip-ssl.xunlei.com^
-||hh345722.guixiangyuan.xyz^
-||fslky21.cc^
-||yh.amyhlmbvvp.vip^
 ||tnc11-bjlgy.zijieapi.com^
 ||video4-4.pddpic.com^
 ||video4-2.pddugc.com^
