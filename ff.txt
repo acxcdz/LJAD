@@ -2,8 +2,8 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: Beta版 0.9.6
-! Last modified: 2024-12-15
+! Version: Beta版 0.9.7
+! Last modified: 2024-12-16
 
 
 /adx-
@@ -722,6 +722,7 @@
 @@||crowd.dreamore.com^$important
 @@||valipl-a10.cp31.ott.cibntv.net^$important
 #其他过滤器误拦截白名单
+@@||m.pinduoduo.net^
 @@||pddpic.com^$important
 @@||i.gtimg.cn^$important
 @@||image.coolapk.com^
