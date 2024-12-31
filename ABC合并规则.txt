@@ -1,6 +1,6 @@
 ! Title: ABC合并规则
-! Description: 该规则合并自BYD广告,NoAppDownload,拦截黄色网站转跳,Ad Filter J,混合规则部分规则
-! Version: 1.1
+! Description: 该规则合并自BYD广告,NoAppDownload,拦截黄色网站转跳,Ad Filter J,混合规则部分规则,AdRules AdBlock List Lite部分规则
+! Version: 1.1.1.1
 ! Last modified: 2024-12-31
 
 !BYD广告
@@ -3920,3 +3920,6 @@ m.youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.player
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, google_ad_status, 1)
 m.youtube.com##lazy-list > ad-slot-renderer
+
+!AdRules AdBlock List Lite
+||dyxz*.com/static/jquery.js?
