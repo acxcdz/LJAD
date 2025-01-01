@@ -1,7 +1,7 @@
 ! Title: ABC合并规则
 ! Description: 该规则合并自BYD广告,NoAppDownload,拦截黄色网站转跳,Ad Filter J,混合规则部分规则,AdRules AdBlock List Lite部分规则
-! Version: 1.1.1.1
-! Last modified: 2024-12-31
+! Version: 1.1.5
+! Last modified: 2025-01-01
 
 !BYD广告
 ###ad-header-mobile-contener
@@ -1596,10 +1596,7 @@ wk.baidu.com##.to-collect
 wk.baidu.com##.tools-guide-card-defence
 wk.baidu.com##.wk-student-defense
 wk.baidu.com##div[page-data="[object Object],[object Object],[object Object],[object Object]"]
-www.123pan.com###bannerBottom
-www.123pan.com##.appHeader
-www.123pan.com##.bottom_banner_guide
-www.123pan.com##img[src="https://statics.123pan.com/static-by-custom/img/s1.png"]
+www.123pan.com##.appBottomBtn.banner-bottom
 www.18comic.vip##.bot-per
 www.apkmirror.com###adtester-container-106
 www.apkmirror.com###adtester-container-125
@@ -3916,6 +3913,8 @@ m.weathercn.com##.news-wrapper
 /videoads/*
 /^https?:\/\/.*\/(\%?[235][a-fA-F3-6]|[a-f-_]{3,})?[Ss](ervice)?[-_]?[Ww](orker)?\.js(\?.*)?$/$script,match-case,from=~dagrasso.pl|~idx.google.com|~tiktok.com|~twitter.com|~youtube.com
 ||googleads.g.doubleclick.net/pagead/id^$xhr,redirect-rule=nooptext
+||log*.aliyuncs.com^
+###app.app > .topic-big
 m.youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, google_ad_status, 1)
