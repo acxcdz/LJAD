@@ -2,8 +2,8 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.1
-! Last modified: 2025-01-01
+! Version: 1.1.1
+! Last modified: 2025-01-03
 
 
 /adx-
@@ -83,6 +83,7 @@
 ||m.weathercn.com/newslist$domain=m.weathercn.com
 ||m.weathercn.com/qukanchannelajax
 ||onekey.cmpassport.com/unisdk/
+||qq.com/log/
 ||update.pan.baidu.com/statistics?
 ||feeds-drcn.cloud.huawei.com.cn/page/novel/tabs?
 ||api-gd.hiaiabc.com/v6*
@@ -117,6 +118,9 @@
 ||ykimg.alicdn.com/develop/image/2019-09-05/0abbf5c656ec8e7e8910482df5ca1364.jpg?x-oss-process=image/resize,h_273,w_487/quality,q_90/format,webp
 #哔哩漫游域名解析服务器黑名单
 ||black.qimo.ink^
+||miniapp-ad.bj.bcebos.com^
+||qa-log.beuyinm.com^
+||sixnetahh.360doc.cn^
 ||qq.com/omts.tc.qq.com
 ||niu.156669.com^
 ||4bfx0u.com^
