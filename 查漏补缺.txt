@@ -2,8 +2,8 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.1.1
-! Last modified: 2025-01-03
+! Version: 1.1.2
+! Last modified: 2025-01-04
 
 
 /adx-
@@ -23,6 +23,7 @@
 /soup.v.qq.com*
 /wup.imtt.qq.com*
 /amdc/mobileDispatch?appkey=*
+.com/*/*.gif$image
 ||api.ip*.com^
 ||app.xn--*.com^
 ||*.05rnog.cn^
@@ -325,6 +326,7 @@
 ||sdkfp.jd.com^
 ||searchlog.html5.qq.com^
 ||log.zuimeitianqi.com^
+||log2.zuimeitianqi.com^
 ||log-api.pangolin-sdk-toutiao.com^
 ||log.kuaikandushu.cn^
 ||loggw-ex.alipay.com^
@@ -501,7 +503,6 @@
 ||upload.chongnengjihua.com^
 ||live-cecom-image.cdn.bcebos.com^
 ||by04.app^
-||player.alicdn.com^
 ||prod.zhisuoyi.net^
 ||sensor-xiu.pps.tv^
 ||m-glider-xiu.pps.tv^
@@ -710,11 +711,13 @@
 ||video-dsp.pddpic.com^
 !H
 ||*.xn--*.net^
-||qwv.nwbeif.cn
-||xs399.com
-||avnzpwo.com
-||fxnoic.cn
-||m.czlxs.com
+||qwv.nwbeif.cn^
+||xs399.com^
+||avnzpwo.com^
+||fxnoic.cn^
+||m.czlxs.com^
+||edu.safa88.com^
+||safa88.com^
 #白名单
 @@||pcdowncmnetzte.titan.mgtv.com*/AD0*^$app=com.hunantv.imgo.activity
 @@||store-drcn.hispace.dbankcloud.cn^$app=com.huawei.hwid
