@@ -2,26 +2,27 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.1.2
-! Last modified: 2025-01-04
+! Version: 1.1.5
+! Last modified: 2025-01-08
 
 
 /adx-
 /ads-
 /ads.
-/admin_ads*
+/admin_ads/
+/adLogBatch
 /alilog/*.js
-/applog*
+/applog/
 /events-
 /static-*/ads*
 /vmind.qqvideo.tc.qq.com*
-/btrace.qq.com*
-/log-verify.dutils.com*
-/x.research.qq.com*
-/nstool.netease.com*
-/dutils.com*
-/soup.v.qq.com*
-/wup.imtt.qq.com*
+/btrace.qq.com/
+/log-verify.dutils.com/
+/x.research.qq.com/
+/nstool.netease.com/
+/dutils.com/
+/soup.v.qq.com/
+/wup.imtt.qq.com/
 /amdc/mobileDispatch?appkey=*
 .com/*/*.gif$image
 ||api.ip*.com^
@@ -194,6 +195,8 @@
 ||livep.l.qq.com^
 ||image-ad.sm.cn^
 ||pubsongscdn.kugou.com^
+||log-dmp.suishenyun.cn^
+||log-dmp.weilitoutiao.net^
 ||log.stat.kugou.com^
 ||leads.baidu.com^
 ||channel.hitouch.hicloud.com^
