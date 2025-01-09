@@ -1,7 +1,7 @@
 ! Title: ABC合并规则
 ! Description: 该规则合并自BYD广告,NoAppDownload,拦截黄色网站转跳,Ad Filter J,去除小说广告,YouTube 广告拦截,广告顶级域名指定拦截,混合规则部分规则,AdRules AdBlock List部分规则
-! Version: 1.2.3.1
-! Last modified: 2025-01-08
+! Version: 1.2.5
+! Last modified: 2025-01-10
 
 !BYD广告
 ###ad-header-mobile-contener
@@ -2977,8 +2977,7 @@ zhidao.baidu.com##.zhidao-app.menu-right-list-item
 m.zol.com.cn##.app-open
 m.zol.com.cn##.zolapp-download.flex-box
 
-!拦截黄色网站转跳／拦截H转跳
-
+!拦截黄色网站转跳
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .alb.aliyuncs.com:*/*/gougou.html?k=$document
@@ -3203,6 +3202,8 @@ m.zol.com.cn##.zolapp-download.flex-box
 /index.html?shareName=$~third-party
 /jypro.html?c=pxza$document
 /jypro.html?c=pxza$~third-party
+/k*/?shareName=kk$document
+/k*/?shareName=kk$~third-party
 /m.html?rmid=*&yd=$document
 /m.html?rmid=*&yd=$~third-party
 /other/survey/system_vpn_update/$document
@@ -3365,6 +3366,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||heitaomm.cc^$~third-party
 ||hh*.huojiabeijing.org^$document
 ||hh*.huojiabeijing.org^$~third-party
+||homeyresto.com^$document
+||homeyresto.com^$~third-party
 ||htjs.demshen.com^$document
 ||htjs.demshen.com^$~third-party
 ||iqbecde.cn^$document
