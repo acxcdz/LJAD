@@ -2,8 +2,8 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.1.7
-! Last modified: 2025-01-15
+! Version: 1.1.8
+! Last modified: 2025-01-18
 
 
 /adx-
@@ -24,7 +24,6 @@
 /soup.v.qq.com/
 /wup.imtt.qq.com/
 /amdc/mobileDispatch?appkey=*
-.com/*/*.gif$image
 ||api.ip*.com^
 ||app.xn--*.com^
 ||*.05rnog.cn^
@@ -120,6 +119,7 @@
 ||ykimg.alicdn.com/develop/image/2019-09-05/0abbf5c656ec8e7e8910482df5ca1364.jpg?x-oss-process=image/resize,h_273,w_487/quality,q_90/format,webp
 #哔哩漫游域名解析服务器黑名单
 ||black.qimo.ink^
+|||h5hosting.dbankcdn.com/*/pps-jssdk/
 ||hot.browser.miui.com^
 ||hwinfo.zuimeitianqi.com^
 ||hwinfo1.zuimeitianqi.com^
@@ -202,6 +202,7 @@
 ||pubsongscdn.kugou.com^
 ||log-dmp.suishenyun.cn^
 ||log-dmp.weilitoutiao.net^
+||log-stats.weathercn.com^
 ||log.stat.kugou.com^
 ||leads.baidu.com^
 ||channel.hitouch.hicloud.com^
@@ -255,7 +256,6 @@
 ||open.e.kuaishou.cn^
 ||wise-novel-authority-logo.cdn.bcebos.com^
 ||senlog.cmpassport.com^
-||log-dmp.weilitoutiao.net^
 ||log-center-cn.leniugame.com^
 ||unilog.wostore.cn^
 ||ablog.talkyun.com.cn^
