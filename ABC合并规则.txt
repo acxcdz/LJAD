@@ -1,7 +1,7 @@
 ! Title: ABC合并规则
 ! Description: 该规则合并自NoAppDownload,拦截黄色网站转跳,Ad Filter J,去除小说广告,YouTube 广告拦截,广告顶级域名指定拦截,混合规则部分规则,AdRules AdBlock List部分规则
-! Version: 1.3.3
-! Last modified: 2025-01-18
+! Version: 1.3.5
+! Last modified: 2025-01-20
 
 
 !NoAppDownload
@@ -2276,7 +2276,7 @@ youtube.com##.ytd-rich-item-renderer > ytd-ad-slot-renderer
 youtube.com##.ytd-search-pyv-renderer
 youtube.com##.ytd-video-masthead-ad-primary-video-overlay-renderer
 youtube.com##.ytd-video-masthead-ad-v3-renderer
-youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
+youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)不支持
 youtube.com##.ytp-ad-action-interstitial-background-container
 youtube.com##.ytp-ad-action-interstitial-slot
 youtube.com##.ytp-ad-button
@@ -2310,7 +2310,7 @@ youtube.com##ytd-video-masthead-ad-v3-renderer
 youtube.com##ytm-companion-slot
 youtube.com##ytm-promoted-sparkles-text-search-renderer
 youtube.com##ytm-promoted-sparkles-web-renderer
-youtube.com#?#ytd-rich-grid-renderer ytd-rich-item-renderer div > ytd-display-ad-renderer:upward(2)
+youtube.com#?#ytd-rich-grid-renderer ytd-rich-item-renderer div > ytd-display-ad-renderer:upward(2)不支持
 youtube.com#@#.overlay-ads
 youtube.com#@#.video-ads
 ||ads.youtube.com^$domain=~ads.youtube.com
@@ -2371,13 +2371,13 @@ youtube.com#@#.video-ads
 .xyz:$third-party,domain=97s1.com|97s3.com|97s8.com|applnn.cc|btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|txtduo.org|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 
 !混合规则
+_ads?
 /ads-api.
 /index-ad-
 /videoads/*
 /videoads/*$~xmlhttprequest
 /upload/ads/*$domain=~ads.ae|~manwa.me|~manwa.site|~manwa.vip|~manwa.xyz|~manwa1.me|~manwa1.site|~manwa1.vip|~manwa1.xyz|~manwa10.me|~manwa10.site|~manwa10.vip|~manwa10.xyz|~manwa2.me|~manwa2.site|~manwa2.vip|~manwa2.xyz|~manwa3.me|~manwa3.site|~manwa3.vip|~manwa3.xyz|~manwa4.me|~manwa4.site|~manwa4.vip|~manwa4.xyz|~manwa5.me|~manwa5.site|~manwa5.vip|~manwa5.xyz|~manwa6.me|~manwa6.site|~manwa6.vip|~manwa6.xyz|~manwa7.me|~manwa7.site|~manwa7.vip|~manwa7.xyz|~manwa8.me|~manwa8.site|~manwa8.vip|~manwa8.xyz|~manwa9.me|~manwa9.site|~manwa9.vip|~manwa9.xyz|~manwadb.xyz|~manwadb1.xyz|~manwadb10.xyz|~manwadb2.xyz|~manwadb3.xyz|~manwadb4.xyz|~manwadb5.xyz|~manwadb6.xyz|~manwadb7.xyz|~manwadb8.xyz|~manwadb9.xyz|~manwafei.biz|~manwafei.cc|~manwafei.com|~manwafei.me|~manwafei.online|~manwafei.site|~manwafei.top|~manwafei.xyz|~manwafei1.biz|~manwafei1.cc|~manwafei1.com|~manwafei1.me|~manwafei1.online|~manwafei1.site|~manwafei1.top|~manwafei1.xyz|~manwafei10.biz|~manwafei10.cc|~manwafei10.com|~manwafei10.me|~manwafei10.online|~manwafei10.site|~manwafei10.top|~manwafei10.xyz|~manwafei2.biz|~manwafei2.cc|~manwafei2.com|~manwafei2.me|~manwafei2.online|~manwafei2.site|~manwafei2.top|~manwafei2.xyz|~manwafei3.biz|~manwafei3.cc|~manwafei3.com|~manwafei3.me|~manwafei3.online|~manwafei3.site|~manwafei3.top|~manwafei3.xyz|~manwafei4.biz|~manwafei4.cc|~manwafei4.com|~manwafei4.me|~manwafei4.online|~manwafei4.site|~manwafei4.top|~manwafei4.xyz|~manwafei5.biz|~manwafei5.cc|~manwafei5.com|~manwafei5.me|~manwafei5.online|~manwafei5.site|~manwafei5.top|~manwafei5.xyz|~manwafei6.biz|~manwafei6.cc|~manwafei6.com|~manwafei6.me|~manwafei6.online|~manwafei6.site|~manwafei6.top|~manwafei6.xyz|~manwafei7.biz|~manwafei7.cc|~manwafei7.com|~manwafei7.me|~manwafei7.online|~manwafei7.site|~manwafei7.top|~manwafei7.xyz|~manwafei8.biz|~manwafei8.cc|~manwafei8.com|~manwafei8.me|~manwafei8.online|~manwafei8.site|~manwafei8.top|~manwafei8.xyz|~manwafei9.biz|~manwafei9.cc|~manwafei9.com|~manwafei9.me|~manwafei9.online|~manwafei9.site|~manwafei9.top|~manwafei9.xyz|~manwaq.vip|~manwaq1.vip|~manwaq10.vip|~manwaq2.vip|~manwaq3.vip|~manwaq4.vip|~manwaq5.vip|~manwaq6.vip|~manwaq7.vip|~manwaq8.vip|~manwaq9.vip|~manwaqq.vip|~manwaqq1.vip|~manwaqq10.vip|~manwaqq2.vip|~manwaqq3.vip|~manwaqq4.vip|~manwaqq5.vip|~manwaqq6.vip|~manwaqq7.vip|~manwaqq8.vip|~manwaqq9.vip|~mwcomic.biz|~mwcomic.cc|~mwcomic.co|~mwcomic.online|~mwcomic.top|~mwcomic.xyz|~mwcomic1.biz|~mwcomic1.cc|~mwcomic1.co|~mwcomic1.online|~mwcomic1.top|~mwcomic1.xyz|~mwcomic10.biz|~mwcomic10.cc|~mwcomic10.co|~mwcomic10.online|~mwcomic10.top|~mwcomic10.xyz|~mwcomic2.biz|~mwcomic2.cc|~mwcomic2.co|~mwcomic2.online|~mwcomic2.top|~mwcomic2.xyz|~mwcomic3.biz|~mwcomic3.cc|~mwcomic3.co|~mwcomic3.online|~mwcomic3.top|~mwcomic3.xyz|~mwcomic4.biz|~mwcomic4.cc|~mwcomic4.co|~mwcomic4.online|~mwcomic4.top|~mwcomic4.xyz|~mwcomic5.biz|~mwcomic5.cc|~mwcomic5.co|~mwcomic5.online|~mwcomic5.top|~mwcomic5.xyz|~mwcomic6.biz|~mwcomic6.cc|~mwcomic6.co|~mwcomic6.online|~mwcomic6.top|~mwcomic6.xyz|~mwcomic7.biz|~mwcomic7.cc|~mwcomic7.co|~mwcomic7.online|~mwcomic7.top|~mwcomic7.xyz|~mwcomic8.biz|~mwcomic8.cc|~mwcomic8.co|~mwcomic8.online|~mwcomic8.top|~mwcomic8.xyz|~mwcomic9.biz|~mwcomic9.cc|~mwcomic9.co|~mwcomic9.online|~mwcomic9.top|~mwcomic9.xyz
 /upload/site/tbgg/*.gif
-://*.*/*mk?ssid=$3p
 ||effirst.com^
 ||chartbeat.com^
 ||go-mpulse.net^
@@ -2417,9 +2417,7 @@ youtube.com#@#.video-ads
 91porn.com##div:has(> a > .ad_img)
 www.google.com###taw, #bottomads
 m.youtube.com##lazy-list > ad-slot-renderer
-m.youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots)
 missav.ws##.lg\:block
-pornhub.com##+js(set-constant, page_params.holiday_promo_prem, true)
 reuters.com##[data-testid="Leaderboard"]
 startpage.com##.a-bg
 youtube.com##+js(set-constant, google_ad_status, 1)
@@ -2454,8 +2452,8 @@ xvideos.com###video-sponsor-links
 /aegis-sdk/*$script
 /antnest/ntm-$script
 /api/pageview?
-/com.snowplowanalytics.$from=~snowplowanalytics.com
-*$removeparam=spm
+/com.snowplowanalytics.$domain=~snowplowanalytics.com
+/script.pageview-props.js
 _analytics.js?
 ||aegis.qq.com^
 ||alicdn.com/awsc/et/
@@ -2463,16 +2461,12 @@ _analytics.js?
 ||c.bing.com/c.gif
 ||collector.xh*/?log=
 ||dyxz*.com/static/jquery.js?
-||google.$removeparam=sca_esv
-||google.*/search?$removeparam=sclient
 ||google.com/log?$redirect-rule=nooptext
-||google-analytics.com/analytics.js|$script,redirect-rule=google-analytics.com/analytics.js
-||google-analytics.com/analytics.js$script,redirect-rule=google-analytics,from=~banki.ru|~bigc.co.th|~sonos.com|~olx.*
-||googletagmanager.com/gtm.js$script,3p,redirect-rule=googletagmanager-gtm,from=~bethesda.net|~corsair.com|~paddle.com|~simon.com|~olx.*
 ||img*.en25.com/i/elqcfg.min.js
 ||mcs.snssdk.com^
 ||onetrust.com^$ping
 ||pan.baidu.com/api/analytics?
+||play.google.com/log
 ||propsad.com^
 ||pvnwap.zol.com.cn^
 ||qdp.qidian.com^$redirect-rule=noopjs
@@ -2484,15 +2478,13 @@ _analytics.js?
 ||translate.googleapis.com/element/log?
 ||try.abtasty.com^
 ||x.com/i/api/1.1/jot
-||yandex.$removeparam=lr
+||youtube.com/youtubei/v1/log_event?
 ||zdw.w8.com.cn^
 ##a[href^="http://click.hotlog.ru/"]
 ##a[href^="http://hitcounter.ru/top/stat.php"]
 ##a[href^="http://top.mail.ru/jump"]
 www.google.*##+js(remove-attr, ping, div[id="search"] a[data-ved][ping])
-@@/^https?:\/\/([a-z0-9-]+\.)*?(cloudflare\.com|prismic\.io|tangerine\.ca|gitlab\.com)/$removeparam
-@@/^https?:\/\/([a-z0-9-]+\.)*?google(\.[a-z]{2,}){1,}\/(complete\/search|setprefs|searchbyimage)/$removeparam
 @@||cdn.segment.com/v1/projects/
-@@||google.com^$xhr,removeparam=ei
-@@||mcs.snssdk.com/webid$from=ixigua.com
-@@||pan.baidu.com/$removeparam,from=pan.baidu.com
+@@||mcs.snssdk.com/webid$domain=ixigua.com
+@@||play.google.com/log?$domain=meet.google.com
+@@||play.google.com/log?format=json$domain=news.google.com
