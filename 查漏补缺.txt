@@ -2,8 +2,8 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.1.8
-! Last modified: 2025-01-18
+! Version: 1.2
+! Last modified: 2025-01-25
 
 
 /adx-
@@ -119,6 +119,10 @@
 ||ykimg.alicdn.com/develop/image/2019-09-05/0abbf5c656ec8e7e8910482df5ca1364.jpg?x-oss-process=image/resize,h_273,w_487/quality,q_90/format,webp
 #哔哩漫游域名解析服务器黑名单
 ||black.qimo.ink^
+||adxlog.vivo.com.cn^
+||cfg-stsdk.vivo.com.cn^
+||trace-h5sdk.vivo.com.cn^
+||sentinelapi.vivo.com.cn^
 |||h5hosting.dbankcdn.com/*/pps-jssdk/
 ||hot.browser.miui.com^
 ||hwinfo.zuimeitianqi.com^
