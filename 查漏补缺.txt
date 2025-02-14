@@ -2,8 +2,8 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.2.1
-! Last modified: 2025-01-25
+! Version: 1.2.25
+! Last modified: 2025-02-14
 
 
 /adx-
@@ -119,6 +119,7 @@
 ||ykimg.alicdn.com/develop/image/2019-09-05/0abbf5c656ec8e7e8910482df5ca1364.jpg?x-oss-process=image/resize,h_273,w_487/quality,q_90/format,webp
 #哔哩漫游域名解析服务器黑名单
 ||black.qimo.ink^
+||s1-a1.global-cdn.me^
 ||adlog.vivo.com.cn^
 ||adxlog.vivo.com.cn^
 ||pfpdonrt-stsdk.vivo.com.cn^
@@ -133,6 +134,7 @@
 ||hwinfo1.zuimeitianqi.com^
 ||swl.libaishuo.com/*?*AD*
 ||newsfeed-drcn.cloud.dbankcloud.cn^$domain=h5hosting-drcn.dbankcdn.cn
+||www.51dxs.com$domain=m.dkxs.net
 ||miniapp-ad.bj.bcebos.com^
 ||qa-log.beuyinm.com^
 ||sixnetahh.360doc.cn^
@@ -451,7 +453,6 @@
 ||m-shop.paimao.cn^
 ||oss.zmyiot.com^
 ||sdk.alibaba.com.ailbaba.me^
-||sdk.alibaba.com.ailbaba.me^$domain=sdk.alibaba.com.ailbaba.me
 ||push.zhanzhang.baidu.com^
 ||zhanzhang.baidu.com^
 ||mpush-api.aliyun.com^
@@ -642,7 +643,6 @@
 ||download-bds.vmall.com^
 ||sdkserver-drcn.op.dbankcloud.cn^
 ||events-drcn.op.dbankcloud.cn^
-||apppromotion-drcn.dbankcdn.cn^
 ||yk-ssp.ad.youku.com^
 ||play.web.9game.cn^
 ||res.9game.cn^
@@ -670,8 +670,6 @@
 ||acd.op.hicloud.com^
 ||acd-op-hicloud-com-drcn.appacc.dbankedge.net^
 ||gep-drcn.game.dbankcloud.cn^
-||api3-normal-lf.fqnovel.com^
-||ec3-core-lf.ecombdapi.com^
 ||minigame5-normal-lf.zijieapi.com^
 ||lf26-stark-cdn.bdgp.cc^
 ||buyer-mse.1kpeak.com^
@@ -707,7 +705,6 @@
 ||bscloudcdncmnet.inter.iqiyi.com^
 ||liveats-vod.video.iqiyi.com^
 ||saveu5-normal-lf.zijieapi.com^
-||mon11-misc-lf.fqnovel.com^
 ||flv-bdplay.inter.71edge.com^
 ||assets.xiaojukeji.com^
 ||mp-manhattan.xiaojukeji.com^
@@ -740,7 +737,6 @@
 @@||crowd.dreamore.com^$important
 @@||valipl-a10.cp31.ott.cibntv.net^$important
 #其他过滤器误拦截白名单
-@@||browsercfg-drcn.cloud.dbankcloud.cn^
 @@||m.pinduoduo.net^
 @@||pddpic.com^$important
 @@||i.gtimg.cn^$important
