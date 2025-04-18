@@ -2,8 +2,8 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.2.25
-! Last modified: 2025-02-14
+! Version: 1.2.3
+! Last modified: 2025-04-19
 
 
 /adx-
@@ -128,6 +128,7 @@
 ||cfg-stsdk.vivo.com.cn^
 ||trace-h5sdk.vivo.com.cn^
 ||sentinelapi.vivo.com.cn^
+||single-h5sdk.vivo.com.cn^
 |||h5hosting.dbankcdn.com/*/pps-jssdk/
 ||hot.browser.miui.com^
 ||hwinfo.zuimeitianqi.com^
