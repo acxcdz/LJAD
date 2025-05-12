@@ -2,8 +2,8 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.2.3
-! Last modified: 2025-04-19
+! Version: 1.2.5
+! Last modified: 2025-05-13
 
 
 /adx-
@@ -731,6 +731,10 @@
 ||m.czlxs.com^
 ||edu.safa88.com^
 ||safa88.com^
+||1l036o.com^
+||lfsuishi.com^
+||ojidacp.com^
+||akoo0513uis.com^
 #白名单
 @@||pcdowncmnetzte.titan.mgtv.com*/AD0*^$app=com.hunantv.imgo.activity
 @@||store-drcn.hispace.dbankcloud.cn^$app=com.huawei.hwid
