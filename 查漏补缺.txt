@@ -2,8 +2,8 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.2.5
-! Last modified: 2025-05-13
+! Version: 1.2.7
+! Last modified: 2025-09-17
 
 
 /adx-
@@ -747,6 +747,7 @@
 @@||i.gtimg.cn^$important
 @@||image.coolapk.com^
 @@||amdc.alipay.com^$important
+@@||mmgame.qpic.cn^$important
 #阿里云盘部分页面图片
 @@||gw.alicdn.com^
 #不朽大陆
@@ -758,7 +759,7 @@
 #酷安头像
 @@||avatar.coolapk.com^
 #🌸为系统更新
-@@update.dbankcdn.com
+@@update.dbankcdn.com看情况
 #🌸为应用市场官网
 @@||appgallery1.huawei.com^$important
 @@||appportal-drcn.dbankcdn.cn^$important
