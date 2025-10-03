@@ -2,8 +2,8 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.2.7
-! Last modified: 2025-09-17
+! Version: 1.2.8
+! Last modified: 2025-10-03
 
 
 /adx-
@@ -59,27 +59,6 @@
 ||mp-*.cdn.bspapp.com^
 ||log*.aliyuncs.com^
 ||video*-*.pddpic.com^
-||qqlive-cover-*.file.myqcloud.com^
-||api-htp.beizi.biz/mb/sdk0/
-||m.weathercn.com/favicon.ico
-||api-*.dutils.com/v*/
-||api.video.xiaomi.com/api/a3
-||api.video.xiaomi.com/api/a3/sdkreport
-||diskapi.baidu.com/rest/2.0/netdisk/log*
-||ggpt.sunlands.com/static/prod/sunlandsLog.js
-||swan-api.iqiyi.com/swan/myapp
-||iqiyi.com/player/*
-||iqiyi.com/common/flashplayer*
-||iqiyi.com/marketing/*/oppo
-||iqiyi.com/pixel
-||iqiyi.com/show2
-||iqiyi.com/track$popup
-||hb.inter.iqiyi.com/
-||*.iqiyi.com/cdn/qiyiapp/
-||cmonitor.iqiyi.com/apis/user/secure
-||static-d.iqiyi.com/lequ
-||static-s.iqiyi.com/lequ
-||img.gamecenter.qq.com
 ||m.weathercn.com/flowlink.do$domain=m.weathercn.com
 ||m.weathercn.com/newslist$domain=m.weathercn.com
 ||m.weathercn.com/qukanchannelajax
@@ -556,12 +535,6 @@
 ||gamestatic.iqiyi.com^
 ||apisgame.iqiyi.com^
 ||dfppdrtgckrj.lewojianzhiwang.com^
-||hb.hbtyjnbgg.vip^
-||yh.amyhbuuis.vip^
-||storage.jd.com^
-||iqiyi.kim^
-||iqiyi.pub^
-||iqiyi.space^
 ||web1.openinstall.io^
 ||adx-drcn.op.dbankcloud.cn^
 ||adx-open-service.youku.com^
@@ -723,7 +696,7 @@
 #拼多多源视频广告
 ||video-dsp.pddpic.com^
 !H
-||*.xn--*.net^
+/douyin.gif
 ||qwv.nwbeif.cn^
 ||xs399.com^
 ||avnzpwo.com^
@@ -731,10 +704,21 @@
 ||m.czlxs.com^
 ||edu.safa88.com^
 ||safa88.com^
+||s1-a1.global-cdn.me^
+||afqfqfwq126.com^
+||t6u6m.flotueqv.com^
+||qweqw4541e.com^
+||h6r6s.icmyuayq.com^
+||17404951380006865tc.94r1fj.com^
 ||1l036o.com^
 ||lfsuishi.com^
 ||ojidacp.com^
 ||akoo0513uis.com^
+||lwzgfp.icu^
+||mms0.baidu.com/it/u=76541002,3837047499&fm=253&app=120&f=JPEG?
+||ad.rwnqoja.com^
+||pab2hf.net^
+
 #白名单
 @@||pcdowncmnetzte.titan.mgtv.com*/AD0*^$app=com.hunantv.imgo.activity
 @@||store-drcn.hispace.dbankcloud.cn^$app=com.huawei.hwid
