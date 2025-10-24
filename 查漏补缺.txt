@@ -2,8 +2,8 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.2.8
-! Last modified: 2025-10-03
+! Version: 1.2.9
+! Last modified: 2025-10-24
 
 
 /adx-
@@ -23,7 +23,7 @@
 /dutils.com/
 /soup.v.qq.com/
 /wup.imtt.qq.com/
-/amdc/mobileDispatch?appkey=*
+
 ||api.ip*.com^
 ||app.xn--*.com^
 ||*.05rnog.cn^
@@ -59,13 +59,8 @@
 ||mp-*.cdn.bspapp.com^
 ||log*.aliyuncs.com^
 ||video*-*.pddpic.com^
-||m.weathercn.com/flowlink.do$domain=m.weathercn.com
-||m.weathercn.com/newslist$domain=m.weathercn.com
-||m.weathercn.com/qukanchannelajax
 ||onekey.cmpassport.com/unisdk/
 ||qq.com/log/
-||update.pan.baidu.com/statistics?
-||feeds-drcn.cloud.huawei.com.cn/page/novel/tabs?
 ||api-gd.hiaiabc.com/v6*
 ||api.*.com/report*
 ||api.*.com/promotion/user/lastlog
@@ -76,17 +71,12 @@
 ||qq.com/diffvmind
 ||log*-misc-*.amemv.com^
 ||*_*_log.kltb.com.cn^
-#笔趣阁
-||sdk.z*d.cn^
-    ↑
 ||ad-*.cos.ap-*.myqcloud.com^ 
 ||ad-*.com^
 ||ads*-normal-lq.zijieapi.com
 ||video-mobile-tech-*.shiply-cdn.qq.com^
 ||conf-darwin.xycdn.com/psdk_param
 ||sd-gl.xycdn.com/psdk/getseeds
-||mbd.baidu.com/searchbox*
-||video.iqiyi.com/dash*
 ||liangcang-material.alicdn.com/prod/upload/*.gif*
 ||valipl.cp31.ott.cibntv.net/*_audio_init.mp4*
 ||vali-g1.cp31.ott.cibntv.net/*.mp4*
@@ -690,6 +680,8 @@
 ||bd1.zuimeitianqi.com^
 ||bd-b-2.appmobile.cn^
 ||bd-b-1.appmobile.cn^
+||bd2.aweweather.com^
+||bd1.aweweather.com^
 #华为系统软件下载站口广告
 ||appgallery-dpspic-drcn.dbankcdn.cn^
 ||appgallery.huawei.com^
