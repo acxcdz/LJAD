@@ -2,10 +2,30 @@
 ! Title: 查漏补缺
 ! Homepage: https://github.com/acxcdz/LJAD
 ! Description: 自建自用规则
-! Version: 1.3.0
-! Last modified: 2025-11-20
+! Version: 1.3.1
+! Last modified: 2026-03-08
 
 
+_ads?
+-ads.js
+.https*.xyz/
+-log.*.com
+.com:8003/*/6868?*
+.xyz:*?*=*&*=
+.xyz:9179/*/668?*=
+.xyz:*/cc/*?is_not=*&target=
+.xyz:9179/*?x=
+.com/js/tongji
+/tongji
+/tj.js
+/gg.js
+.vip:*/*/*.js
+.xyz:9569/*/554?*=
+.com:3666/*/*.js
+.com:7957/*.json
+.cn/interface2/*.json
+.vip:9527/json/*/*.json
+.com/api/*/getabds?ad_
 ||bd1.zuimeitianqi.com^
 ||bd2.zuimeitianqi.com^
 ||bd-b-1.appmobile.cn^
